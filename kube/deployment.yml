@@ -14,7 +14,7 @@ spec:
         app: player-service
     spec:
       containers:
-      - image: hub.docker.com/repository/docker/cboisvert/player-service:latest
+      - image: docker.io/cboisvert/player-service:latest
         name: player-service
         ports:
         - containerPort: 80
