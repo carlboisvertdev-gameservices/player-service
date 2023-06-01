@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: player-service-configmap
+data:
+  BOOTSTRAP_SERVERS: "kafka:9092"
+  SERVICE_TOPIC: "player-service"
+  GAME_SERVICE_TOPIC: "game-service"
